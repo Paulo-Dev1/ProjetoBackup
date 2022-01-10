@@ -1,0 +1,8 @@
+/* botões dos menus editaveis */
+
+.editar{
+    background-image: url("images/editar.png");
+    width: 15px;
+    border: 1px solid red;
+}
+

@@ -1,0 +1,75 @@
+@model IEnumerable<Mulher_Presente.Models.Vitima>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/css/Sobre.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+  <div class="text-center container">  
+    <p class="text-white h3">
+        Através do seu cadastro você vai poder ser amparada por um profissional
+        selecionado, que vai entrar em contato para te dar o suporte necessário.
+    </p>
+
+<p class="font-weight-bold btn-link">
+    <a asp-action="Create" class="h3 ">Criar chamada</a>
+</p>
+</div>
+
+<hr class="bg-white"/>
+
+<div class="text-center">
+<table class="table table-dark table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.apelido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Parceiros)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.apelido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Parceiros.Especilidade)
+            </td>
+            <td>
+                <a class="text-info" asp-action="Edit" asp-route-id="@item.id_vitima"><img src="images/editar.png" width="25" alt="" srcset=""></a> |
+                <a class="text-info" asp-action="Details" asp-route-id="@item.id_vitima"><img src="images/lupa.png" width="25" alt="" srcset=""></a> |
+                <a class="text-info" asp-action="Delete" asp-route-id="@item.id_vitima"><img src="images/lixeira.png" width="25" alt="" srcset=""></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</body>
+</html>
