@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O6IOr0yi4H1lcs98ft70BaaFynxQ9Cf+Kduxi0AYfPJ9/fXn+LSa18znRrbdKqHgF4hffvF6ME83wXrEVRFFwg==",
+  "dgSpecHash": "MSXMJWi7owAgYjvUo0i/vs6VHUDU+Wh88Yr8loy5w2FZedmzDw2SuyHYeHVtXyYviggM1jOJYi7E67NgChfndg==",
   "success": true,
-  "projectFilePath": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
+  "projectFilePath": "D:\\Mulher Presente\\Projeto final\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paulo Miguel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Paulo Miguel\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -7212,11 +7212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
+      "projectUniqueName": "D:\\Mulher Presente\\Projeto final\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
       "projectName": "Mulher-Presente",
-      "projectPath": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
+      "projectPath": "D:\\Mulher Presente\\Projeto final\\Squad8\\Mulher_Presente\\Mulher-Presente.csproj",
       "packagesPath": "C:\\Users\\Paulo Miguel\\.nuget\\packages\\",
-      "outputPath": "D:\\Mulher Presente\\Nova pasta\\Squad8\\Mulher_Presente\\obj\\",
+      "outputPath": "D:\\Mulher Presente\\Projeto final\\Squad8\\Mulher_Presente\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
